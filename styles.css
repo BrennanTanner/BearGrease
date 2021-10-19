@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+html {
+   background-color: black;
+}
+nav {
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+   font-family: 'Bebas Neue',  sans-serif;
+   font-weight: 400;
+}
+
+nav ul {
+   list-style-type: none;
+   position: sticky;
+   margin: -10px;
+   padding: 0px;
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+#logo {
+   transition: 0.5s;
+   height: 50px;
+   margin-top: -10px;
+}
+
+#cart {
+   align-self: center;
+   float: right;
+   margin: 20px;
+}
+
+nav li {
+   float: left;
+}
+
+nav li a {
+   display: block;
+   color: #ebebff;
+   text-align: center;
+   font-size: 15pt;
+   transition: 0.5s;
+   padding: 30px 16px;
+   text-decoration: none;
+   max-height: 20px;
+}
+
+nav li a:hover:not(.active) {
+   font-size: 18pt;
+   transition: 0.5s;
+}
+
+nav li img:hover:not(.active) {
+   height: 55px;
+   transition: 0.5s;
+}
+
+body{
+font-family: 'Bebas Neue',  sans-serif;
+}
+
+#banner {
+   background-image: url("images/px-bg.svg"), url("images/guy-standing.jpg");
+   background-position: center center, center center;
+   background-size: auto, cover;
+   background-attachment: scroll, fixed;
+   text-align: center;
+   padding: 300px 0px;
+}
+
+#items {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+
+#items a {
+
+}
